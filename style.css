@@ -31,6 +31,7 @@ form button{
   font-size: 2rem;
   border: none;
   border-radius: 10px;
+  color: #00a6ff;
   background: white;
   transition: all 0.5s ease;
 }
@@ -57,16 +58,18 @@ form button:hover{
 .todo-list{
   min-width: 30%;
   list-style: none;
+  transition: all 0.5s ease;
 }
 
 .todo{
   margin: 0.5rem;
   background: white;
-  color: black;
+  color: #00a6ff;
   font-size: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 10px;
   transition: all 0.5s ease;
 }
 
@@ -81,6 +84,8 @@ form button:hover{
   border: none;
   padding: 1rem;
   cursor: pointer;
+  border-radius: 10px;
+  margin: 0.5rem;
   font-size: 1rem;
 }
 
