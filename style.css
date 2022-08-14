@@ -34,6 +34,7 @@ form button{
   color: #00a6ff;
   background: white;
   transition: all 0.5s ease;
+  outline: none;
 }
 
 form button{
